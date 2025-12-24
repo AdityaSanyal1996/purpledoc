@@ -8,10 +8,11 @@ Browser extension + local FastAPI backend that answers questions about the page 
 - Answers stream back to the popup via `chrome.storage` updates.
 
 ## Setup
-1) Install Python deps: `pip install -r requirements.txt` (use a virtualenv if you want).
-2) Add `.env` with `GOOGLE_API_KEY=your_key_here`.
-3) Start backend: `./start.sh` (runs uvicorn on port 8000).
-4) Load the extension:
+1) Install Python deps: `pip install -r requirements.txt` (use a virtualenv(or conda) if you want).
+2) This can be run as a `uv` project using the `pyproject.toml` file.
+3) Add `.env` with `GOOGLE_API_KEY=your_key_here`.
+4) Start backend: `./start.sh` (runs uvicorn on port 8000).
+5) Load the extension:
    - Open `chrome://extensions`, enable Developer Mode.
    - Click “Load unpacked” and select the `extension` folder.
    - Pin the PurpleDoc icon and click it to open the popup.
