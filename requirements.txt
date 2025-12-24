@@ -1,0 +1,12 @@
+python-dotenv 
+fastapi 
+uvicorn 
+requests  
+beautifulsoup4  
+langchain
+langchain_text_splitters 
+langchain-community  
+google-generativeai             # This pulls core  community  text-splitters automatically
+langchain-google-genai  
+langchain-chroma  
+chromadb  

@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "PurpleDoc AI",
+    "version": "1.0",
+    "description": "Chat with documentation.",
+    "permissions": ["activeTab", "scripting", "storage"],
+    "host_permissions": ["http://localhost:8000/*"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }

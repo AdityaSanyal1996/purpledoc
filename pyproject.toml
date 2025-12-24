@@ -1,0 +1,16 @@
+[project]
+name = "purple"
+version = "0.0.1"
+readme = "README.md"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "python-dotenv",
+    "fastapi",
+    "uvicorn",
+    "requests",
+    "beautifulsoup4",
+    "langchain",              # This pulls core, community, text-splitters automatically
+    "langchain-google-genai",
+    "langchain-chroma",
+    "chromadb" 
+]
